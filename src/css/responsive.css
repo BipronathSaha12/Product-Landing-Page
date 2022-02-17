@@ -1,0 +1,58 @@
+
+/*=============================================================================================
+                                    Responsive Design
+==============================================================================================*/
+@media screen and (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width:768px){
+    #header{
+        border-bottom: none;
+    }
+    #header .icon #menu-btn{
+        display: inline-block;
+    }
+    #header #nav-bar{
+        position: absolute;
+        top: 99%;
+        right: 0;
+        left: 0;
+        background: var(--color-navbar);
+        border-top: 0.2rem solid #222;
+        border-bottom: 0.2rem solid #222;
+        padding: 0 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    #header #nav-bar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);  
+    }
+    #header #nav-bar ul li{
+        float: none;
+        margin: 3rem 1rem;
+    }
+    #header #nav-bar a{
+        font-size: 2rem;
+    }
+
+}
+@media  screen and (max-width:450px) {
+    html{
+        font-size: 50%;
+    }
+    .hero_heading{
+        font-size: 2rem;
+    }
+    .desc p{
+        font-size: 2rem;
+    }
+    #video{
+        height:30vw;
+    }
+
+    #footer h5{
+        font-size: 1.3rem;
+    }
+}
