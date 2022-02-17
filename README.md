@@ -7,9 +7,10 @@
 
 This static web page is deployed in netlify.app 
 
-``bash
+```bash
         https://orginalthrombones.netlify.app/
 ```
+
 ### Author 
 
 [@BipronathSaha12](https://www.github.com/bipronathsaha12/)
